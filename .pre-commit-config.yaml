@@ -27,6 +27,7 @@ repos:
         additional_dependencies:
         - tomli
         args: ["--skip=*.svg"]
+        exclude: 'paper/.*'
 -   repo: https://github.com/PyCQA/flake8
     rev: 7.0.0
     hooks:
